@@ -31,9 +31,11 @@ while len(message)<86:
             key = c+b+a # reversing right connection and making a key for a new search
 
         i += 1
+        
     if len(message) == 0: # in case of a wrong input of the initial connection
         print('Try again with "QVH" as initial connection.')
         break
+        
     i = 0
 
 
